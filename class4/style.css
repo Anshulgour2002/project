@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+p:hover{
+    background-color: rgb(72, 97, 154);
+}
+
+p:nth-child(even){
+    background-color: rgb(12, 206, 171);
+}
+p::after{
+    content: "Hero";
+}
+p:first-letter{
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+p::first-line{
+  font-size: 30px;
+    font-weight: bold;
+}
